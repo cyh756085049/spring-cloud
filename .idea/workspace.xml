@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="761765bb-97b4-456c-8e61-42e700b36f0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/eureka-authenticating/src/main/java/com/discovery/eurekaauthenticating/EurekaAuthenticatingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-authenticating/src/main/java/com/discovery/eurekaauthenticating/EurekaAuthenticatingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-authenticating/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-authenticating/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="761765bb-97b4-456c-8e61-42e700b36f0f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +195,7 @@
       <workItem from="1569547740669" duration="8128000" />
       <workItem from="1569583272849" duration="2731000" />
       <workItem from="1569648962995" duration="4540000" />
-      <workItem from="1569671316812" duration="16491000" />
+      <workItem from="1569671316812" duration="16628000" />
     </task>
     <servers />
   </component>
