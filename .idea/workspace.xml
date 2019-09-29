@@ -2,87 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="761765bb-97b4-456c-8e61-42e700b36f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-authenticating/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-authenticating/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-authenticating/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-authenticating/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-authenticating/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-authenticating/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-authenticating/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-authenticating/src/main/java/com/discovery/eurekaauthenticating/EurekaAuthenticatingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-authenticating/src/main/java/com/discovery/eurekaauthenticating/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-authenticating/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-authenticating/src/test/java/com/discovery/eurekaauthenticating/EurekaAuthenticatingApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ha/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ha/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ha/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ha/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ha/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ha/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ha/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ha/src/main/java/com/discovery/eurekaha/EurekaHaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ha/src/main/resources/application-simple.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ha/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ha/src/test/java/com/discovery/eurekaha/EurekaHaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/src/main/java/com/consumer/moviefeign/MovieFeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/src/main/java/com/consumer/moviefeign/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/src/main/java/com/consumer/moviefeign/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/src/main/java/com/consumer/moviefeign/feign/UserFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-feign/src/test/java/com/consumer/moviefeign/MovieFeignApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/src/main/java/com/consumer/movieribbonconfigproperties/MovieRibbonConfigPropertiesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/src/main/java/com/consumer/movieribbonconfigproperties/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/src/main/java/com/consumer/movieribbonconfigproperties/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config-properties/src/test/java/com/consumer/movieribbonconfigproperties/MovieRibbonConfigPropertiesApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/src/main/java/com/consumer/movieribbonconfig/MovieRibbonConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/src/main/java/com/consumer/movieribbonconfig/config/RibbonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/src/main/java/com/consumer/movieribbonconfig/config/TestConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/src/main/java/com/consumer/movieribbonconfig/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-config/src/test/java/com/consumer/movieribbonconfig/MovieRibbonConfigApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/src/main/java/com/consumer/movieribbon/MovieRibbonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/src/main/java/com/consumer/movieribbon/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/src/main/java/com/consumer/movieribbon/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon/src/test/java/com/consumer/movieribbon/MovieRibbonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/src/main/java/com/consumer/moviefeignconfigjava/MovieFeignConfigJavaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/src/main/java/com/consumer/moviefeignconfigjava/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/src/main/java/com/consumer/moviefeignconfigjava/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/src/main/java/com/consumer/moviefeignconfigjava/feign/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/src/main/java/com/consumer/moviefeignconfigjava/logger/UserFeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-config-java/src/test/java/com/consumer/moviefeignconfigjava/MovieFeignConfigJavaApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie-feign/src/main/java/com/consumer/moviefeign" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie-feign-config-java/src/main/java/com/consumer/moviefeignconfigjava" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -136,11 +73,11 @@
       <recent name="com.consumer.movieribbonconfig.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movie-feign-config-java/src/main/java/com/consumer/moviefeignconfigjava" />
       <recent name="$PROJECT_DIR$/movie-feign/src/main/java/com/consumer/moviefeign" />
       <recent name="$PROJECT_DIR$/movie-ribbon-config-properties/src/main/java/com/consumer/movieribbonconfigproperties" />
       <recent name="$PROJECT_DIR$/movie-ribbon/src/main/java/com/consumer/movieribbon" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/movie/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -155,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MovieFeignApplication">
+  <component name="RunManager" selected="Spring Boot.MovieFeignConfigJavaApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.discovery.eureka.EurekaApplication" />
@@ -187,6 +124,13 @@
     <configuration name="MovieFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="movie-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.consumer.moviefeign.MovieFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieFeignConfigJavaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie-feign-config-java" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.consumer.moviefeignconfigjava.MovieFeignConfigJavaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -233,7 +177,7 @@
       <workItem from="1569547740669" duration="8128000" />
       <workItem from="1569583272849" duration="2731000" />
       <workItem from="1569648962995" duration="4540000" />
-      <workItem from="1569671316812" duration="3769000" />
+      <workItem from="1569671316812" duration="5771000" />
     </task>
     <servers />
   </component>

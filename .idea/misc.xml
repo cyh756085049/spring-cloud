@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/movie-ribbon-config/pom.xml" />
         <option value="$PROJECT_DIR$/movie-ribbon-config-properties/pom.xml" />
         <option value="$PROJECT_DIR$/movie-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-feign-config-java/pom.xml" />
       </list>
     </option>
   </component>
