@@ -9,8 +9,9 @@
     <file url="file://$PROJECT_DIR$/movie-feign-config-java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-feign-config-properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-ribbon" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movie-ribbon-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-ribbon-config-java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-ribbon-config-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user" charset="UTF-8" />
   </component>
 </project>
