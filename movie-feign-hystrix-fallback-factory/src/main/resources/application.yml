@@ -17,9 +17,11 @@ eureka:
 feign:
   hystrix:
     enabled: true
+  client:
+    config:
+
 
 management:
   endpoint:
     health:
       show-details: always
-
