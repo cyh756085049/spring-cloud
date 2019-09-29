@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="movie-feign" />
         <module name="movie-ribbon" />
+        <module name="movie-feign-hystrix-fallback-factory" />
         <module name="eureka-authenticating" />
         <module name="eureka-ha" />
         <module name="user" />
@@ -37,6 +38,7 @@
       <module name="movie-feign-config-java" options="-parameters" />
       <module name="movie-feign-config-properties" options="-parameters" />
       <module name="movie-feign-hystrix" options="-parameters" />
+      <module name="movie-feign-hystrix-fallback-factory" options="-parameters" />
       <module name="movie-ribbon" options="-parameters" />
       <module name="movie-ribbon-config-java" options="-parameters" />
       <module name="movie-ribbon-config-properties" options="-parameters" />
