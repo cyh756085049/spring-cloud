@@ -8,6 +8,12 @@
         <option value="$PROJECT_DIR$/user/pom.xml" />
         <option value="$PROJECT_DIR$/movie/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-ha/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-ribbon-config/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-ribbon-config-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-feign/pom.xml" />
       </list>
     </option>
   </component>

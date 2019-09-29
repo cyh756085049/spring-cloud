@@ -7,16 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="user" />
+        <module name="eureka-ha" />
+        <module name="movie-ribbon-config-properties" />
+        <module name="movie-feign" />
         <module name="movie" />
-        <module name="spring-cloud-study" />
         <module name="eureka" />
+        <module name="eureka-authenticating" />
+        <module name="spring-cloud-study" />
+        <module name="movie-ribbon" />
+        <module name="movie-ribbon-config" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka" options="-parameters" />
+      <module name="eureka-authenticating" options="-parameters" />
+      <module name="eureka-ha" options="-parameters" />
       <module name="movie" options="-parameters" />
+      <module name="movie-feign" options="-parameters" />
+      <module name="movie-ribbon" options="-parameters" />
+      <module name="movie-ribbon-config" options="-parameters" />
+      <module name="movie-ribbon-config-properties" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>
   </component>

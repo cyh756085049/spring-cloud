@@ -1,0 +1,17 @@
+server:
+  port: 8761
+eureka:
+  client:
+    # 是否要注册到其他Eureka Server实例
+    register-with-eureka: false
+    # 是否要从其他Eureka Server实例获取数据
+    fetch-registry: false
+    service-url:
+      defaultZone: http://user:password123@localhost:8761/eureka/
+spring:
+  security:
+    user:
+      # 配置登录的账号是user
+      name: user
+      # 配置登录的密码是password123
+      password: password123
