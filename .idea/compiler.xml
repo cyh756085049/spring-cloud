@@ -12,6 +12,7 @@
         <module name="movie-feign" />
         <module name="movie" />
         <module name="eureka" />
+        <module name="movie-feign-config-properties" />
         <module name="eureka-authenticating" />
         <module name="spring-cloud-study" />
         <module name="movie-ribbon" />
@@ -28,6 +29,7 @@
       <module name="movie" options="-parameters" />
       <module name="movie-feign" options="-parameters" />
       <module name="movie-feign-config-java" options="-parameters" />
+      <module name="movie-feign-config-properties" options="-parameters" />
       <module name="movie-ribbon" options="-parameters" />
       <module name="movie-ribbon-config" options="-parameters" />
       <module name="movie-ribbon-config-properties" options="-parameters" />

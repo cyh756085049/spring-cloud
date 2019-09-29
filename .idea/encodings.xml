@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/movie" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-feign-config-java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-feign-config-properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-ribbon-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-ribbon-config-properties" charset="UTF-8" />
