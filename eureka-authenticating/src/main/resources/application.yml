@@ -7,7 +7,7 @@ eureka:
     # 是否要从其他Eureka Server实例获取数据
     fetch-registry: false
     service-url:
-      defaultZone: http://user:password123@localhost:8761/eureka/
+      defaultZone: http://user:password1234@localhost:8761/eureka/
 
 spring:
   security:
@@ -15,4 +15,4 @@ spring:
       # 配置登录的账号是user
       name: user
       # 配置登录的密码是password123
-      password: password123
+      password: password1234
