@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/movie-feign-config-java/pom.xml" />
         <option value="$PROJECT_DIR$/movie-feign-config-properties/pom.xml" />
         <option value="$PROJECT_DIR$/simple-user/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-ribbon-hystrix-common/pom.xml" />
       </list>
     </option>
   </component>

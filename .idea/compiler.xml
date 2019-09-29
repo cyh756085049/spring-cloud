@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user" />
-        <module name="eureka-ha" />
-        <module name="movie-ribbon-config-properties" />
-        <module name="movie-ribbon-config-java" />
         <module name="movie-feign" />
-        <module name="movie" />
-        <module name="eureka" />
-        <module name="movie-feign-config-properties" />
-        <module name="eureka-authenticating" />
-        <module name="spring-cloud-study" />
         <module name="movie-ribbon" />
+        <module name="eureka-authenticating" />
+        <module name="eureka-ha" />
+        <module name="user" />
+        <module name="movie" />
         <module name="movie-feign-config-java" />
+        <module name="movie-feign-config-properties" />
+        <module name="movie-ribbon-config-properties" />
+        <module name="spring-cloud-study" />
+        <module name="eureka" />
         <module name="simple-user" />
+        <module name="movie-ribbon-hystrix-common" />
+        <module name="movie-ribbon-config-java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +38,7 @@
       <module name="movie-ribbon" options="-parameters" />
       <module name="movie-ribbon-config-java" options="-parameters" />
       <module name="movie-ribbon-config-properties" options="-parameters" />
+      <module name="movie-ribbon-hystrix-common" options="-parameters" />
       <module name="simple-user" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>
