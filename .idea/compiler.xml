@@ -11,6 +11,7 @@
         <module name="eureka-authenticating" />
         <module name="eureka-ha" />
         <module name="user" />
+        <module name="movie-feign-hystrix" />
         <module name="movie" />
         <module name="movie-feign-config-java" />
         <module name="movie-feign-config-properties" />
@@ -35,6 +36,7 @@
       <module name="movie-feign" options="-parameters" />
       <module name="movie-feign-config-java" options="-parameters" />
       <module name="movie-feign-config-properties" options="-parameters" />
+      <module name="movie-feign-hystrix" options="-parameters" />
       <module name="movie-ribbon" options="-parameters" />
       <module name="movie-ribbon-config-java" options="-parameters" />
       <module name="movie-ribbon-config-properties" options="-parameters" />

@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="761765bb-97b4-456c-8e61-42e700b36f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/src/main/java/com/consumer/movieribbonhystrixcommon/MovieRibbonHystrixCommonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/src/main/java/com/consumer/movieribbonhystrixcommon/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/src/main/java/com/consumer/movieribbonhystrixcommon/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/src/test/java/com/consumer/movieribbonhystrixcommon/MovieRibbonHystrixCommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/src/main/java/com/consumer/moviefeignhystrix/MovieFeignHystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/src/main/java/com/consumer/moviefeignhystrix/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/src/main/java/com/consumer/moviefeignhystrix/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/src/main/java/com/consumer/moviefeignhystrix/feign/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix/src/test/java/com/consumer/moviefeignhystrix/MovieFeignHystrixApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -60,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie-ribbon-hystrix-common/src/main/java/com/consumer/movieribbonhystrixcommon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie-feign-hystrix/src/main/java/com/consumer/moviefeignhystrix" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -73,11 +74,11 @@
       <recent name="com.consumer.movieribbonconfig.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movie-feign-hystrix/src/main/java/com/consumer/moviefeignhystrix" />
       <recent name="$PROJECT_DIR$/movie-ribbon-hystrix-common/src/main/java/com/consumer/movieribbonhystrixcommon" />
       <recent name="$PROJECT_DIR$/simple-user/src/main/java/com/provider/simpleuser" />
       <recent name="$PROJECT_DIR$/movie-feign-config-properties/src/main/java/com/consumer/moviefeignconfigproperties" />
       <recent name="$PROJECT_DIR$/movie-feign-config-java/src/main/java/com/consumer/moviefeignconfigjava" />
-      <recent name="$PROJECT_DIR$/movie-feign/src/main/java/com/consumer/moviefeign" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -92,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="Spring Boot.MovieFeignHystrixApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.discovery.eureka.EurekaApplication" />
@@ -138,6 +139,13 @@
     <configuration name="MovieFeignConfigPropertiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="movie-feign-config-properties" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.consumer.moviefeignconfigproperties.MovieFeignConfigPropertiesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieFeignHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie-feign-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.consumer.moviefeignhystrix.MovieFeignHystrixApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,7 +206,7 @@
       <workItem from="1569547740669" duration="8128000" />
       <workItem from="1569583272849" duration="2731000" />
       <workItem from="1569648962995" duration="4540000" />
-      <workItem from="1569671316812" duration="12121000" />
+      <workItem from="1569671316812" duration="13555000" />
     </task>
     <servers />
   </component>
