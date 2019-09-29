@@ -19,6 +19,7 @@ public class MovieController {
     public User findById(@PathVariable Long id){
         // 这里用到了RestTemplate的占位符能力
         User user = this.restTemplate.getForObject("http://localhost:8000/users/{id}", User.class, id);
+        //...微服务业务...
         return user;
     }
 }
