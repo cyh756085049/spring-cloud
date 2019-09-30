@@ -20,6 +20,7 @@
         <module name="movie-ribbon-config-properties" />
         <module name="spring-cloud-study" />
         <module name="eureka" />
+        <module name="hystrix-dashboard" />
         <module name="simple-user" />
         <module name="movie-ribbon-hystrix-common" />
         <module name="movie-ribbon-config-java" />
@@ -34,6 +35,7 @@
       <module name="eureka" options="-parameters" />
       <module name="eureka-authenticating" options="-parameters" />
       <module name="eureka-ha" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
       <module name="movie" options="-parameters" />
       <module name="movie-feign" options="-parameters" />
       <module name="movie-feign-config-java" options="-parameters" />
