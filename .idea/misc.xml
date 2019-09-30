@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/movie-ribbon-hystrix-common/pom.xml" />
         <option value="$PROJECT_DIR$/movie-feign-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/movie-feign-hystrix-fallback-factory/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-feign-hystrix-stream/pom.xml" />
       </list>
     </option>
   </component>

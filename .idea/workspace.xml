@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="761765bb-97b4-456c-8e61-42e700b36f0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/src/main/java/com/consumer/moviefeignhystrixstream/MovieFeignHystrixStreamApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/src/main/java/com/consumer/moviefeignhystrixstream/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/src/main/java/com/consumer/moviefeignhystrixstream/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/src/main/java/com/consumer/moviefeignhystrixstream/feign/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign-hystrix-stream/src/test/java/com/consumer/moviefeignhystrixstream/MovieFeignHystrixStreamApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-ribbon-hystrix-common/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-ribbon-hystrix-common/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie-feign-hystrix-fallback-factory/src/main/java/com/consumer/moviefeignhystrixfallbackfactory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie-feign-hystrix-stream/src/main/java/com/consumer/moviefeignhystrixstream" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -60,11 +74,11 @@
       <recent name="com.consumer.movieribbonconfig.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movie-feign-hystrix-stream/src/main/java/com/consumer/moviefeignhystrixstream" />
       <recent name="$PROJECT_DIR$/movie-feign-hystrix-fallback-factory/src/main/java/com/consumer/moviefeignhystrixfallbackfactory" />
       <recent name="$PROJECT_DIR$/movie-feign-hystrix/src/main/java/com/consumer/moviefeignhystrix" />
       <recent name="$PROJECT_DIR$/movie-ribbon-hystrix-common/src/main/java/com/consumer/movieribbonhystrixcommon" />
       <recent name="$PROJECT_DIR$/simple-user/src/main/java/com/provider/simpleuser" />
-      <recent name="$PROJECT_DIR$/movie-feign-config-properties/src/main/java/com/consumer/moviefeignconfigproperties" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -79,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MovieRibbonHystrixCommonApplication">
+  <component name="RunManager" selected="Spring Boot.MovieFeignHystrixStreamApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.discovery.eureka.EurekaApplication" />
@@ -143,6 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MovieFeignHystrixStreamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie-feign-hystrix-stream" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.consumer.moviefeignhystrixstream.MovieFeignHystrixStreamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MovieRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="movie-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.consumer.movieribbon.MovieRibbonApplication" />
@@ -200,7 +221,7 @@
       <workItem from="1569583272849" duration="2731000" />
       <workItem from="1569648962995" duration="4540000" />
       <workItem from="1569671316812" duration="17411000" />
-      <workItem from="1569823554755" duration="759000" />
+      <workItem from="1569823554755" duration="2321000" />
     </task>
     <servers />
   </component>

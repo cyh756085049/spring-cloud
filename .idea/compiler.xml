@@ -16,6 +16,7 @@
         <module name="movie" />
         <module name="movie-feign-config-java" />
         <module name="movie-feign-config-properties" />
+        <module name="movie-feign-hystrix-stream" />
         <module name="movie-ribbon-config-properties" />
         <module name="spring-cloud-study" />
         <module name="eureka" />
@@ -24,6 +25,9 @@
         <module name="movie-ribbon-config-java" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="movie-ribbon-config-java" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -36,6 +40,7 @@
       <module name="movie-feign-config-properties" options="-parameters" />
       <module name="movie-feign-hystrix" options="-parameters" />
       <module name="movie-feign-hystrix-fallback-factory" options="-parameters" />
+      <module name="movie-feign-hystrix-stream" options="-parameters" />
       <module name="movie-ribbon" options="-parameters" />
       <module name="movie-ribbon-config-java" options="-parameters" />
       <module name="movie-ribbon-config-properties" options="-parameters" />
