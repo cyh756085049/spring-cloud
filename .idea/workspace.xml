@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="761765bb-97b4-456c-8e61-42e700b36f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/main/java/com/gateway/gatewayzuul/GatewayZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/main/resources/application_为Zuul添加映射前缀1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/main/resources/application_为Zuul添加映射前缀2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/main/resources/application_同时指定path和URL，并且不破坏Zuul的Hystrix、Ribbon特性.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/main/resources/application_同时指定path和url.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/main/resources/application_同时指定微服务的serviceId和对应路径.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/main/resources/application_忽略所有微服务，只路由指定的微服务.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/main/resources/application_忽略指定微服务.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/main/resources/application_忽略某些路径.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/main/resources/application_指定微服务路径.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-zuul/src/test/java/com/gateway/gatewayzuul/GatewayZuulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-zuul-filter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-zuul-filter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-zuul-filter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-zuul-filter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-zuul-filter/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-zuul-filter/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-zuul-filter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-zuul-filter/src/main/java/com/gateway/gatewayzuulfilter/GatewayZuulFilterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-zuul-filter/src/main/java/com/gateway/gatewayzuulfilter/filter/PreRequestLogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-zuul-filter/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-zuul-filter/src/test/java/com/gateway/gatewayzuulfilter/GatewayZuulFilterApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -35,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayZuulApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayZuulFilterApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.discovery.eureka.EurekaApplication" />
@@ -125,6 +117,13 @@
     <configuration name="GatewayZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.gatewayzuul.GatewayZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayZuulFilterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-zuul-filter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.gatewayzuulfilter.GatewayZuulFilterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -250,7 +249,7 @@
       <workItem from="1569648962995" duration="4540000" />
       <workItem from="1569671316812" duration="17411000" />
       <workItem from="1569823554755" duration="4820000" />
-      <workItem from="1569918804914" duration="5967000" />
+      <workItem from="1569918804914" duration="7123000" />
     </task>
     <servers />
   </component>

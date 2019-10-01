@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-zuul-filter/pom.xml" />
       </list>
     </option>
   </component>

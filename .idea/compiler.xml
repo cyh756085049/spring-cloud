@@ -24,6 +24,7 @@
         <module name="hystrix-dashboard" />
         <module name="hystrix-turbine" />
         <module name="simple-user" />
+        <module name="gateway-zuul-filter" />
         <module name="movie-ribbon-hystrix-common" />
         <module name="movie-ribbon-config-java" />
       </profile>
@@ -38,6 +39,7 @@
       <module name="eureka-authenticating" options="-parameters" />
       <module name="eureka-ha" options="-parameters" />
       <module name="gateway-zuul" options="-parameters" />
+      <module name="gateway-zuul-filter" options="-parameters" />
       <module name="hystrix-dashboard" options="-parameters" />
       <module name="hystrix-turbine" options="-parameters" />
       <module name="movie" options="-parameters" />
