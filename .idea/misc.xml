@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/movie-feign-hystrix-stream/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-zuul/pom.xml" />
       </list>
     </option>
   </component>

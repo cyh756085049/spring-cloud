@@ -9,6 +9,7 @@
         <module name="movie-feign" />
         <module name="movie-ribbon" />
         <module name="movie-feign-hystrix-fallback-factory" />
+        <module name="gateway-zuul" />
         <module name="eureka-authenticating" />
         <module name="eureka-ha" />
         <module name="user" />
@@ -27,12 +28,16 @@
         <module name="movie-ribbon-config-java" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="movie-ribbon-config-java" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka" options="-parameters" />
       <module name="eureka-authenticating" options="-parameters" />
       <module name="eureka-ha" options="-parameters" />
+      <module name="gateway-zuul" options="-parameters" />
       <module name="hystrix-dashboard" options="-parameters" />
       <module name="hystrix-turbine" options="-parameters" />
       <module name="movie" options="-parameters" />
