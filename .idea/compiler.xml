@@ -13,22 +13,20 @@
         <module name="eureka-ha" />
         <module name="user" />
         <module name="movie-feign-hystrix" />
-        <module name="movie" />
+        <module name="movie-feign-hystrix-stream" />
         <module name="movie-feign-config-java" />
         <module name="movie-feign-config-properties" />
-        <module name="movie-feign-hystrix-stream" />
+        <module name="movie" />
         <module name="movie-ribbon-config-properties" />
         <module name="spring-cloud-study" />
         <module name="eureka" />
         <module name="hystrix-dashboard" />
+        <module name="hystrix-turbine" />
         <module name="simple-user" />
         <module name="movie-ribbon-hystrix-common" />
         <module name="movie-ribbon-config-java" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="movie-ribbon-config-java" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -36,6 +34,7 @@
       <module name="eureka-authenticating" options="-parameters" />
       <module name="eureka-ha" options="-parameters" />
       <module name="hystrix-dashboard" options="-parameters" />
+      <module name="hystrix-turbine" options="-parameters" />
       <module name="movie" options="-parameters" />
       <module name="movie-feign" options="-parameters" />
       <module name="movie-feign-config-java" options="-parameters" />

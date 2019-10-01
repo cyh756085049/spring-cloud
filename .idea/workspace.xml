@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="761765bb-97b4-456c-8e61-42e700b36f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/hystrix/hystrixdashboard/HystrixDashboardApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/hystrix/hystrixdashboard/controller/HystrixIndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/test/java/com/hystrix/hystrixdashboard/HystrixDashboardApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-turbine/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-turbine/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-turbine/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-turbine/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-turbine/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-turbine/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-turbine/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-turbine/src/main/java/com/hystrix/hystrixturbine/HystrixTurbineApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-turbine/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-turbine/src/test/java/com/hystrix/hystrixturbine/HystrixTurbineApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -91,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HystrixDashboardApplication">
+  <component name="RunManager" selected="Spring Boot.MovieApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.discovery.eureka.EurekaApplication" />
@@ -116,6 +115,13 @@
     <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hystrix-dashboard" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hystrix.hystrixdashboard.HystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hystrix-turbine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hystrix.hystrixturbine.HystrixTurbineApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,7 +232,8 @@
       <workItem from="1569583272849" duration="2731000" />
       <workItem from="1569648962995" duration="4540000" />
       <workItem from="1569671316812" duration="17411000" />
-      <workItem from="1569823554755" duration="3274000" />
+      <workItem from="1569823554755" duration="4820000" />
+      <workItem from="1569918804914" duration="106000" />
     </task>
     <servers />
   </component>
