@@ -17,6 +17,7 @@
         <module name="movie-feign-hystrix-stream" />
         <module name="movie-feign-config-java" />
         <module name="movie-feign-config-properties" />
+        <module name="gateway-zuul-fallback" />
         <module name="movie" />
         <module name="movie-ribbon-config-properties" />
         <module name="spring-cloud-study" />
@@ -39,6 +40,7 @@
       <module name="eureka-authenticating" options="-parameters" />
       <module name="eureka-ha" options="-parameters" />
       <module name="gateway-zuul" options="-parameters" />
+      <module name="gateway-zuul-fallback" options="-parameters" />
       <module name="gateway-zuul-filter" options="-parameters" />
       <module name="hystrix-dashboard" options="-parameters" />
       <module name="hystrix-turbine" options="-parameters" />
