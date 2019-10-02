@@ -8,23 +8,24 @@
         <outputRelativeToContentRoot value="true" />
         <module name="movie-feign" />
         <module name="movie-ribbon" />
+        <module name="movie-ribbon-config-properties" />
         <module name="movie-feign-hystrix-fallback-factory" />
         <module name="gateway-zuul" />
-        <module name="eureka-authenticating" />
         <module name="eureka-ha" />
         <module name="user" />
         <module name="movie-feign-hystrix" />
-        <module name="movie-feign-hystrix-stream" />
-        <module name="movie-feign-config-java" />
-        <module name="movie-feign-config-properties" />
-        <module name="gateway-zuul-fallback" />
         <module name="movie" />
-        <module name="movie-ribbon-config-properties" />
-        <module name="spring-cloud-study" />
+        <module name="movie-feign-config-java" />
         <module name="eureka" />
+        <module name="movie-feign-config-properties" />
+        <module name="movie-feign-hystrix-stream" />
+        <module name="gateway-zuul-fallback" />
+        <module name="spring-cloud-study" />
+        <module name="eureka-authenticating" />
         <module name="hystrix-dashboard" />
         <module name="hystrix-turbine" />
         <module name="simple-user" />
+        <module name="config-server" />
         <module name="gateway-zuul-filter" />
         <module name="movie-ribbon-hystrix-common" />
         <module name="movie-ribbon-config-java" />
@@ -36,6 +37,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="eureka-authenticating" options="-parameters" />
       <module name="eureka-ha" options="-parameters" />

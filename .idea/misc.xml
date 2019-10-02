@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/gateway-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-zuul-filter/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-zuul-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>
