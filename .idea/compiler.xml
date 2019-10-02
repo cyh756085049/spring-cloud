@@ -10,6 +10,7 @@
         <module name="config-client" />
         <module name="movie-ribbon" />
         <module name="movie-ribbon-config-properties" />
+        <module name="config-server-encryption" />
         <module name="movie-feign-hystrix-fallback-factory" />
         <module name="gateway-zuul" />
         <module name="eureka-ha" />
@@ -40,6 +41,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
+      <module name="config-server-encryption" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="eureka-authenticating" options="-parameters" />
       <module name="eureka-ha" options="-parameters" />

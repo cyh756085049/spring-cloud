@@ -28,6 +28,7 @@
         <option value="$PROJECT_DIR$/gateway-zuul-fallback/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server-encryption/pom.xml" />
       </list>
     </option>
   </component>
