@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="movie-feign" />
+        <module name="config-client" />
         <module name="movie-ribbon" />
         <module name="movie-ribbon-config-properties" />
         <module name="movie-feign-hystrix-fallback-factory" />
@@ -37,6 +38,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="eureka-authenticating" options="-parameters" />
