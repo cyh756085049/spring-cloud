@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: config-server-encryption
+  cloud:
+    config:
+      server:
+        git:
+          # Git仓库地址
+          uri: https://git.oschina.net/itmuch/spring-cloud-config-repo.git
+          # Git仓库账号
+          username:
+          # Git仓库密码
+          password:
+
+

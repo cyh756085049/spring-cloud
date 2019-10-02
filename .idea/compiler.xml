@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-server-encryption-rsa" />
         <module name="movie-feign" />
         <module name="config-client" />
         <module name="movie-ribbon" />
@@ -42,6 +43,7 @@
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="config-server-encryption" options="-parameters" />
+      <module name="config-server-encryption-rsa" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="eureka-authenticating" options="-parameters" />
       <module name="eureka-ha" options="-parameters" />

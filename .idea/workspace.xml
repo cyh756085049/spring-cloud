@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="761765bb-97b4-456c-8e61-42e700b36f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-server-encryption/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-encryption/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-encryption/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-encryption/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-encryption/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-encryption/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-encryption/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-encryption/src/main/java/com/config/configserverencryption/ConfigServerEncryptionApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-encryption/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-encryption/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-encryption/src/test/java/com/config/configserverencryption/ConfigServerEncryptionApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/src/main/java/com/config/configserverencryptionrsa/ConfigServerEncryptionRsaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/src/main/resources/server.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-encryption-rsa/src/test/java/com/config/configserverencryptionrsa/ConfigServerEncryptionRsaApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -92,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerEncryptionApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigServerEncryptionRsaApplication">
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.configclient.ConfigClientApplication" />
@@ -110,6 +111,13 @@
     <configuration name="ConfigServerEncryptionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server-encryption" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.configserverencryption.ConfigServerEncryptionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerEncryptionRsaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server-encryption-rsa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.configserverencryptionrsa.ConfigServerEncryptionRsaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -278,7 +286,7 @@
       <workItem from="1569671316812" duration="17411000" />
       <workItem from="1569823554755" duration="4820000" />
       <workItem from="1569918804914" duration="8940000" />
-      <workItem from="1569997867998" duration="6749000" />
+      <workItem from="1569997867998" duration="8215000" />
     </task>
     <servers />
   </component>

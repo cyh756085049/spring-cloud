@@ -1,0 +1,6 @@
+encrypt:
+  key-store:
+    location: server.jks
+    password: letmein
+    alias: mytestkey
+    secret: changeme
