@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/config-client/pom.xml" />
         <option value="$PROJECT_DIR$/config-server-encryption/pom.xml" />
         <option value="$PROJECT_DIR$/config-server-encryption-rsa/pom.xml" />
+        <option value="$PROJECT_DIR$/user-sleuth/pom.xml" />
       </list>
     </option>
   </component>
