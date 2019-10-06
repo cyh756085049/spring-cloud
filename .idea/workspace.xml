@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="761765bb-97b4-456c-8e61-42e700b36f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-sleuth/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/src/main/java/com/provider/usersleuth/UserSleuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/src/main/java/com/provider/usersleuth/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/src/main/java/com/provider/usersleuth/dao/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/src/main/java/com/provider/usersleuth/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-sleuth/src/test/java/com/provider/usersleuth/UserSleuthApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/src/main/java/com/alibaba/nacos/NacosApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/src/main/java/com/alibaba/nacos/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/src/main/java/com/alibaba/nacos/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/src/main/java/com/alibaba/nacos/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/src/test/java/com/alibaba/nacos/NacosApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -62,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-sleuth/src/main/java/com/provider/usersleuth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nacos/src/main/java/com/alibaba/nacos" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -75,11 +76,11 @@
       <recent name="com.consumer.movieribbonconfig.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nacos/src/main/java/com/alibaba/nacos" />
       <recent name="$PROJECT_DIR$/user-sleuth/src/main/java/com/provider/usersleuth" />
       <recent name="$PROJECT_DIR$/movie-feign-hystrix-stream/src/main/java/com/consumer/moviefeignhystrixstream" />
       <recent name="$PROJECT_DIR$/movie-feign-hystrix-fallback-factory/src/main/java/com/consumer/moviefeignhystrixfallbackfactory" />
       <recent name="$PROJECT_DIR$/movie-feign-hystrix/src/main/java/com/consumer/moviefeignhystrix" />
-      <recent name="$PROJECT_DIR$/movie-ribbon-hystrix-common/src/main/java/com/consumer/movieribbonhystrixcommon" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserSleuthApplication">
+  <component name="RunManager" selected="Spring Boot.NacosApplication">
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.configclient.ConfigClientApplication" />
@@ -256,6 +257,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.nacos.NacosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="simple-user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.provider.simpleuser.SimpleUserApplication" />
@@ -294,7 +302,8 @@
       <workItem from="1569671316812" duration="17411000" />
       <workItem from="1569823554755" duration="4820000" />
       <workItem from="1569918804914" duration="8940000" />
-      <workItem from="1569997867998" duration="9885000" />
+      <workItem from="1569997867998" duration="10266000" />
+      <workItem from="1570330721208" duration="1840000" />
     </task>
     <servers />
   </component>

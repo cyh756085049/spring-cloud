@@ -6,33 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server-encryption-rsa" />
+        <module name="gateway-zuul-fallback" />
         <module name="movie-feign" />
-        <module name="config-client" />
-        <module name="movie-ribbon" />
-        <module name="movie-ribbon-config-properties" />
         <module name="config-server-encryption" />
+        <module name="movie-ribbon" />
         <module name="movie-feign-hystrix-fallback-factory" />
         <module name="gateway-zuul" />
+        <module name="config-client" />
         <module name="eureka-ha" />
         <module name="user" />
         <module name="movie-feign-hystrix" />
+        <module name="nacos" />
         <module name="movie" />
         <module name="movie-feign-config-java" />
-        <module name="eureka" />
+        <module name="config-server-encryption-rsa" />
         <module name="movie-feign-config-properties" />
         <module name="movie-feign-hystrix-stream" />
         <module name="user-sleuth" />
-        <module name="gateway-zuul-fallback" />
+        <module name="movie-ribbon-config-properties" />
         <module name="spring-cloud-study" />
-        <module name="eureka-authenticating" />
+        <module name="eureka" />
+        <module name="movie-ribbon-config-java" />
         <module name="hystrix-dashboard" />
         <module name="hystrix-turbine" />
         <module name="simple-user" />
-        <module name="config-server" />
+        <module name="eureka-authenticating" />
         <module name="gateway-zuul-filter" />
         <module name="movie-ribbon-hystrix-common" />
-        <module name="movie-ribbon-config-java" />
+        <module name="config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -64,6 +65,7 @@
       <module name="movie-ribbon-config-java" options="-parameters" />
       <module name="movie-ribbon-config-properties" options="-parameters" />
       <module name="movie-ribbon-hystrix-common" options="-parameters" />
+      <module name="nacos" options="-parameters" />
       <module name="simple-user" options="-parameters" />
       <module name="user" options="-parameters" />
       <module name="user-sleuth" options="-parameters" />

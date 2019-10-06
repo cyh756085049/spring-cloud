@@ -4,7 +4,6 @@
     <file url="file://$PROJECT_DIR$/config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-server-encryption" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config-server-encryption" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-server-encryption-rsa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-authenticating" charset="UTF-8" />
@@ -25,6 +24,7 @@
     <file url="file://$PROJECT_DIR$/movie-ribbon-config-java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-ribbon-config-properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-ribbon-hystrix-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/simple-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-sleuth" charset="UTF-8" />
